@@ -52,6 +52,14 @@ header.swiper {
     border: 2px solid black;
 }
 
+.content .show .introduce{
+    display: none;
+}
+
+.content .show .selected{
+    display: block;
+}
+
 .swiper {
     width: 100%;
     height: 100%;
