@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 body {
-    background: url("");
+    font-family: 'Nanum Gothic', sans-serif;
+    /*background: url("");*/
 }
 
 .wrap {
@@ -18,6 +20,23 @@ header.swiper {
     height: 300px;
 }
 
+.introduce_subtitle {
+    max-width: 685px;
+    width: 100%;
+    margin: 0 auto 15px auto;
+    font-size: 35px;
+}
+
+.introduce_subtitle b{
+    font-weight: bold;
+}
+.introduce_desc {
+    max-width: 685px;
+    width: 100%;
+    margin: 0 auto 50px auto;
+    font-size: 20px;
+}
+
 .content {
     width: 800px;
     height: 700px;
@@ -28,6 +47,7 @@ header.swiper {
 .content .show {
     width: 600px;
     height: 100%;
+    padding: 5%;
     justify-content: space-around;
     border: 2px solid black;
 }
