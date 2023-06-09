@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>quiz</title>
+    <!--Open Graph-->
+    <!--http://ogp.me/-->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="day0609Quiz" />
+    <meta property="og:title" content="6월9일 Quiz" />
+    <meta property="og:description" content="6월9일 진행한 슬라이드 기능과 이미지 클릭시 이벤트처리 퀴즈 입니다" />
+    <meta property="og:image" content="/images/quizSeo.png" />
+    <meta property="og:url" content="https://day0609quiz.netlify.app/" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<div class="wrap">
+    <header>
+        <!-- Swiper -->
+        <div #swiperRef="" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/hero1.png" alt="" ></div>
+                <div class="swiper-slide"><img src="images/hero2.png" alt="" ></div>
+                <div class="swiper-slide"><img src="images/hero3.png" alt="" ></div>
+                <div class="swiper-slide"><img src="images/hero4.png" alt="" ></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </header>
+    <div class="content">
+        <aside class="aside-menu">
+            <ul class="menu">
+                <li><img src="./images/hero5.png" alt="" srcset=""></li>
+                <li><img src="./images/hero6.png" alt="" srcset=""></li>
+                <li><img src="./images/hero7.png" alt="" srcset=""></li>
+                <li><img src="./images/hero7.png" alt="" srcset=""></li>
+            </ul>
+        </aside>
+        <div class="show">
+
+        </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!--    <script src="js/main.js"></script>-->
+    <script src="js/main.js"></script>
+</div>
+</body>
+</html>
