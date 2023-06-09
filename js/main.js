@@ -4,7 +4,7 @@ var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     pagination: {
         el: ".swiper-pagination",
-        type: "fraction",
+        clickable: true,
     },
     navigation: {
         nextEl: ".swiper-button-next",
