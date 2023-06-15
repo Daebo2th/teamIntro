@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\KOSA\Desktop\teamgit\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2837097268.index
+3819091542.index
+3338576181.index
+3553304605.index
+2579151992.index
+1896420978.index
